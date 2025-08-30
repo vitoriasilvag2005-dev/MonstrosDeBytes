@@ -17,6 +17,7 @@ public class PrimeiroRobo extends Robot
 		// Initialization of the robot should be put here
 
 		// Teste do pipeline antes de push
+		// Teste do pipeline
 
 		// After trying out your robot, try uncommenting the import at the top,
 		// and the next line:

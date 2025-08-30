@@ -16,9 +16,10 @@ public class PrimeiroRobo extends Robot
 	public void run() {
 		// Initialization of the robot should be put here
 
+		// Teste do pipeline antes de push
+
 		// After trying out your robot, try uncommenting the import at the top,
 		// and the next line:
-
 		setColors(Color.green,Color.green,Color.blue); // body,gun,radar
 
 		// Robot main loop
@@ -28,8 +29,6 @@ public class PrimeiroRobo extends Robot
 			back(1);
 			turnLeft(10000);
 			turnRight(1);
-			
-						
 		}
 	}
 
@@ -46,7 +45,6 @@ public class PrimeiroRobo extends Robot
 	 */
 	public void onHitByBullet(HitByBulletEvent e) {
 		// Replace the next line with any behavior you would like
-		
 	}
 	
 	/**
@@ -54,6 +52,5 @@ public class PrimeiroRobo extends Robot
 	 */
 	public void onHitWall(HitWallEvent e) {
 		// Replace the next line with any behavior you would like
-		
 	}	
 }
